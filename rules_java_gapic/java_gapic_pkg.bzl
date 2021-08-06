@@ -113,7 +113,7 @@ gapic_pkg_tar = rule(
 # ========================================================================
 def _construct_extra_deps(scope_to_deps, versions_map):
     label_name_to_maven_artifact = {
-        "OpenCannabis": "maven.io_opencannabis_protocol",
+        "OpenCannabis": "versions.io_github_opencannabis_protocol",
         "policy_proto": "maven.com_google_api_grpc_proto_google_iam_v1",
         "iam_policy_proto": "maven.com_google_api_grpc_proto_google_iam_v1",
         "iam_java_proto": "maven.com_google_api_grpc_proto_google_iam_v1",
