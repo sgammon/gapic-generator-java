@@ -305,7 +305,7 @@ def java_gapic_assembly_gradle_pkg(
         **kwargs):
     package_dir = name
     if assembly_name:
-        package_dir = "google-cloud-%s-%s" % (assembly_name, name)
+        package_dir = "cookies-%s-%s" % (assembly_name, name)
 
     # Rename to avoid target conflicts with the monolith.
     proto_target = "proto-%s" % package_dir
